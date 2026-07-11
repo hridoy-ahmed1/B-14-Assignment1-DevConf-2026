@@ -198,25 +198,38 @@ header {
 /* relevent section start> Sponsors   */
 .sponsor-bg {
   background-color: rgb(219, 255, 255);
+  height: 350px;
+  
 }
 .card-parent {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  justify-content: space-evenly;
+  display: flex;
+  justify-content: space-between;
   text-align: center;
-
-  padding: 5px;
+  gap: 20px;
+  margin: 10px;
 }
 .card-parent div {
   background-color: white;
-  width: 200px;
-  height: 170px;
+  width: 210px;
+  height: 180px;
   border-radius: 10px;
-  margin: 40px 5px;
+  margin: 10px 5px;
 
 }
 .title {
   text-align: center;
+}
+.title h2 {
+  font-size: 30px;
+  padding: 2px;
+}
+.title .p1{
+  color: blue;
+  padding: 10px;
+  font-weight: bold;
+}
+ .title p{font-size: 10px;
+ margin-top: 10px;
 }
 .card-pic img {
   width: 100%;
@@ -233,4 +246,6 @@ header {
   font-size: 20px;
  margin-top: 10px;
 }
+/* sponsor section end  */
+
 
