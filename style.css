@@ -8,7 +8,7 @@
   display: flex;
   justify-content: space-between;
   list-style: none;
-  margin: 8px;
+  margin: 18px;
   padding: 0px 80px;
   align-items: center;
 }
@@ -22,9 +22,17 @@ a {
   text-decoration: none;
   color: #575757;
 }
-.logo {
-  padding: 0px;
-  margin-right: auto;
+.logo-title {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 20px;
+}
+
+.logo-title .text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1;
 }
 .common-btn {
   background-color: #1d4ed8;
@@ -87,7 +95,7 @@ header {
   margin: 10px 20px;
   text-align: left;
 }
-.banner .title {
+.banner .titla {
   color: blue;
   font-size: 10px;
   font-weight: bold;
@@ -197,7 +205,7 @@ header {
 /* price card section end  */
 /* relevent section start> Sponsors   */
 .sponsor-bg {
-  background-color: rgb(219, 255, 255);
+  background-color: rgb(148, 148, 255);
   height: 350px;
   
 }
@@ -247,30 +255,32 @@ header {
   font-size: 20px;
  margin-top: 10px;
 }
+
 /* sponsor section end  */
 /* footer section start  */
  .footer{
-    padding:20px;
-    background:#00458f;
+    padding:15px;
+    background:#009f6f;
 }
 
-.footer-top{
+.footer-logo{
     display:flex;
     justify-content:space-between;
     align-items:center;
+    margin: 0px 30px;
+
 }
 .social a{
-    color:#ffffff;
-    margin-left:15px;
+    color: rgb(255, 255, 255);
+    margin-left:20px;
     font-size:20px;
     text-decoration:none;
 }
 
 .footer hr{
-    margin:20px 0;
-    border-color:rgba(255,255,255,.2);
+    margin:8px 0;
+    border-color:rgba(255, 255, 255, 0.2);
 }
-
 .footer p{
     text-align:center;
     color: white;
